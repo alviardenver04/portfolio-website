@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #f9f9f9; */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    ;
+    width: 100%;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #0077cc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 1rem;
+    transition: color 0.2s ease;
+}
+
+
+nav ul li a:hover {
+    color: #0077cc;
+    border-bottom: 3px solid #0077cc;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+section:nth-child(even) {
+      background-color: #f4f6f7;
+    }
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+}
+
+
+.profile-pic {
+    width: 20vw;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-name {
+    color: #0077cc;
+}
+
+.intro h1 {
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+    font-size: 2.5rem;
+}
+
+.intro p {
+    margin-bottom: 1vw;
+    font-size: 1.2rem;
+    width: 30vw;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1vw;
+}
+
+.social-icons img {
+    margin-bottom: 1vw;
+    width: 1.8vw;
+    height: auto;
+}
+
+.social-icons img:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.download-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #005fa3;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+}
+
+.about-text {
+    width: 30vw;
+}
+
+.about-text h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0077cc;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+}
+
+.about-image img {
+    width: 18vw;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
